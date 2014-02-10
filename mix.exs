@@ -24,7 +24,7 @@ defmodule Simple.Mixfile do
   # { :barbat, "~> 0.1", github: "elixir-lang/barbat" }
   defp deps do
     [
-      { :sugar, "~> 0.2.0-dev" github: "sugar-framework/sugar" }
+      { :sugar, github: "sugar-framework/sugar", branch: "develop" }
     ]
   end
 end

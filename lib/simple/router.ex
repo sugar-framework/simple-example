@@ -1,13 +1,8 @@
-defmodule Simple.Router do
+defmodule Router do
   use Sugar.Router
   alias Simple.Controllers.Hello
-
-  middleware Sugar.Middleware.Static
+  alias Simple.Controllers.Pages
 
   get "/", Hello, :index
-  get "/pages/:id", Hello, :show
-  get "/pages" when true, Hello, :show
-  any "/pages/:id" when id == 1, Hello, :show
-
-  resource "/api/pages", Pages
+  resource "/pages", Pages
 end
