@@ -17,27 +17,27 @@ defmodule Simple.Controllers.Pages do
   end
 
   # GET /pages/:id
-  def show(conn, args) do
+  def show(conn, _args) do
     halt! conn, [message: "Not implemented"]
   end
 
   # GET /pages/:id/edit
-  def edit(conn, args) do
+  def edit(conn, _args) do
     halt! conn, [message: "Not implemented"]
   end
 
   # PUT /pages/:id
-  def update(conn, args) do
+  def update(conn, _args) do
     halt! conn, [message: "Not implemented"]
   end
 
   # PATCH /pages/:id
-  def patch(conn, args) do
+  def patch(conn, _args) do
     halt! conn, [message: "Not implemented"]
   end
 
   # DELETE /pages/:id
-  def delete(conn, args) do
+  def delete(conn, _args) do
     halt! conn, [message: "Not implemented"]
   end
 end

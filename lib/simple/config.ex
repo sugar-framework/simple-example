@@ -1,7 +1,6 @@
 defmodule Config do
   def config do
     [
-      log: true,
       server: [
         port: 4000
       ]
