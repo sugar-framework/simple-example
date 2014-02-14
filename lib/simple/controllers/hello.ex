@@ -3,7 +3,7 @@ defmodule Simple.Controllers.Hello do
   def index(conn, _args) do
     # {:ok, body} = Calliope.Render.render("index.html", conn.assigns)
     # IO.inspect body
-    render conn, "<html></html>"
+    render conn, "<html><head></head><body>howdy pilgrim</body></html>"
   end
   def show(conn, args) do
     render conn, "showing page #{args[:id]}"

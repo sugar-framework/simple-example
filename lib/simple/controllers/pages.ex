@@ -13,6 +13,7 @@ defmodule Simple.Controllers.Pages do
 
   # POST /pages
   def create(conn, _args) do
+    IO.puts "testy testerton"
     halt! conn, [message: "Not implemented"]
   end
 

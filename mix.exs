@@ -4,7 +4,7 @@ defmodule Simple.Mixfile do
   def project do
     [ app: :simple,
       version: "0.0.1",
-      elixir: "~> 0.12.3",
+      elixir: "~> 0.12.4-dev",
       deps: deps ]
   end
 
@@ -24,8 +24,8 @@ defmodule Simple.Mixfile do
   # { :barbat, "~> 0.1", github: "elixir-lang/barbat" }
   defp deps do
     [
-      { :sugar, path: "../sugar" }
-      # { :sugar, github: "sugar-framework/sugar", branch: "develop" }
+      { :sugar, github: "sugar-framework/sugar", branch: "develop" },
+      { :plugs, github: "sugar-framework/plugs" }
     ]
   end
 end
