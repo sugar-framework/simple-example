@@ -1,4 +1,4 @@
-defmodule Router do
+defmodule Simple.Router do
   use Sugar.Router
   alias Simple.Controllers.Hello
 
