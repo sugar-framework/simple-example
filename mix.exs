@@ -16,7 +16,9 @@ defmodule Simple.Mixfile do
 
   defp deps do
     [
-      { :sugar, "~> 0.4.0" }
+      { :sugar, "~> 0.4.6" }
+      # Comment out the above line and uncomment the below one if you want the latest/greatest
+      # {:sugar, github: "sugar-framework/sugar"}
     ]
   end
 end
