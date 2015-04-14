@@ -1,9 +1,11 @@
 defmodule Simple.Controllers.Hello do
   use Sugar.Controller
+  
   def index(conn, _args) do
-    render conn
+    conn |> render
   end
+  
   def show(conn, args) do
-    render conn, args
+    conn |> render(args)
   end
 end

@@ -3,7 +3,7 @@ defmodule Simple.Mixfile do
 
   def project do
     [ app: :simple,
-      version: "0.0.2",
+      version: "0.0.3",
       elixir: "~> 1.0.0",
       deps: deps ]
   end
@@ -16,7 +16,9 @@ defmodule Simple.Mixfile do
 
   defp deps do
     [
-      { :sugar, "~> 0.4.0" }
+      { :sugar, "~> 0.4.6" }
+      # Comment out the above line and uncomment the below one if you want the latest/greatest
+      # {:sugar, github: "sugar-framework/sugar"}
     ]
   end
 end

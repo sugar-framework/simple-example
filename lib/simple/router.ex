@@ -1,6 +1,7 @@
 defmodule Simple.Router do
   use Sugar.Router
   alias Simple.Controllers.Hello
+  plug Sugar.Plugs.HotCodeReload
 
   get "/", Hello, :index
   get "/pages/:id", Hello, :show
