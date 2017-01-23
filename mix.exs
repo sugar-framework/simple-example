@@ -4,7 +4,7 @@ defmodule Simple.Mixfile do
   def project do
     [ app: :simple,
       version: "0.0.3",
-      elixir: "~> 1.0.0",
+      elixir: "~> 1.0",
       deps: deps ]
   end
 
